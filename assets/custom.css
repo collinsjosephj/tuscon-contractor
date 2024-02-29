@@ -2,13 +2,47 @@ body {
     background-color: linear-gradient(#f5f3ed, #a1a09d );
     padding-top: 120px;
 }
+h5 {
+    font-weight: bolder;
+}
 .navbar-dark .navbar-brand {
+    display: flex;
     color: white;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(0 58 93 / var(--tw-bg-opacity));;
+    opacity: .5rem;
+    padding: inherit;
+}
+.navbar-right {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: lighter;
+    font-style: bold;
+    font-family: cursive;
+    font-size: small;
+}
+a.nav-link {
+    font-weight: bolder;
+}
+a.nav-link:hover {
+    background-color: transparent;
 }
 
-.h1 {
+img.img-fluid {
+    border-radius: 180px;
+}
+.col-md-6 {
+    display: flex;
+    
+}
 
+.py-5 {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.text-muted {
+    font-style: italic;
 }
