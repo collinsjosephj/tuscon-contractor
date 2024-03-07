@@ -1,5 +1,4 @@
 body {
-   /* background-image: url(images/footer1.jpg); */
     background-color: linear-gradient(#f5f3ed, #a1a09d );
     padding-top: 120px;
 }
@@ -20,9 +19,11 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: "Madimi One", sans-serif;
-    font-weight: lighter;
-    font-size: small;
+    font-family: "Anton", sans-serif;
+    /* font-weight: lighter; */
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+
 }
 a.nav-link, h2, h5 {
     font-weight: bolder;
@@ -37,8 +38,6 @@ a.nav-link:hover {
     opacity: .1rem;
     
 }
-
-
 .card-group {
     border-radius: 20px;
 }
@@ -50,7 +49,6 @@ img.img-fluid {
     display: flex;
     
 }
-
 .py-5 {
     flex-wrap: wrap;
     flex-direction: column;
